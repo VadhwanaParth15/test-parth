@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.HOMEPAGE-MAIN-CONTAINER {
+    width: 100vw;
+    background-color: #F9EFD7;
+    height: 883px;
+}
+
+
+/* .CONTENT-CONTAINER::before {
+    margin-left: 40px;
+    content: "WELCOME TO,PRAKARSH 2023";
+    font-family: 'Chivo Mono', monospace;
+    color: #3F3B6C;
+    font-size: 38px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start;
+    position: absolute;
+} */
+
+.CONTENT-CONTAINER {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    height: 900px;
+    
+}
+.curved{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 840px;
+    left: 0px;
+    top: 0px;
+    /* border: 2px solid black; */
+}
+
+
+.curved img{
+    
+    object-fit: contain;
+    width: 100%;
+    /* width: fit-co ;
+    height: fit-content; */
+}
+.headercontainer{
+    position: absolute;
+    top: 25%;
+    left: 60px;
+    /* border: 2px solid black; */
+}
+.headerline{
+    width: max-content;
+    letter-spacing: 3px;
+    font-size: 4rem;
+    font-weight: 800;
+    font-family: 'Syncopate', sans-serif;
+    position: relative;
+    line-height: 5rem;
+    top: 20px;
+    left: 60px;
+    
+}
+span{
+    position: absolute;
+    left: 100px;
+    color: #8e56dc;
+    text-indent: 30px;
+}
+
+
+    .heroimage{
+        /* border: 2px solid black; */
+        position: absolute;
+        right: 18px;
+        top: -2rem;
+        /* background-size: cover; */
+        /* align-items: center; */
+        /* width: 100%; */
+        /* height: 50vh; */
+        flex-wrap: wrap;
+        padding: -700px 0;
+    }
+
+    .heroimage img{
+        width: 100%;
+        height: 40rem;
+    }

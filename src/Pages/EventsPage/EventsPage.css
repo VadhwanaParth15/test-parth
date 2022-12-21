@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Arapey&family=Syncopate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+
+.EVENTS_CONTAINER {
+    background-color: #F9EFD7;
+    /* background-color: #f0c3c2; */
+    width: 100vw;
+}
+
+.EVENTS_HEADER_MAIN {
+    padding-top: 30px;
+    color: black;
+    text-align: center;
+    font-family: 'Syncopate', sans-serif;
+}
+
+.EVENTS_HEADING_MAIN {
+    margin-top: 10px;
+    text-align: center;
+    color:#8E56DC;
+    text-transform: capitalize;
+    font-weight: 800;
+}
+
+.EVENTS_FLEX_CONTAINER {
+    display: flex;
+    margin-top: 20px;
+    width: 100vw;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.EVENT-ITEM-CONTAINER {
+
+    height: 300px;
+    width: 300px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 15px solid white;
+    background-color: #F9EFD7;
+    border-radius: 15px;
+    margin: 35px 25px;
+    transition: all 0.2s ease-in-out;
+}
+
+.EVENT-ITEM-CONTAINER:hover {
+    transform: scale(1.040);
+}
+
+.EVENT-ITEM-CONTAINER>img {
+    border-radius: 20px;
+    height: 200px;
+    width: 200px;
+}
+
+.EVENT-ITEM-CONTAINER>p {
+    margin-top: 65px;
+    font-family: 'Rubik Vinyl', cursive;
+}
+
+body {
+    overflow-x: hidden;
+}
