@@ -1,82 +1,31 @@
-import React from 'react'
-import SponserCompanies from './SponserCompanies'
-import './SponsersPage.css'
-
-const SPONSERS = [
-    {
-        name: "KANAN.CO",
-        IMAGEPATH: "assets/SponsersImages/01.jpg",
-        className: "SPONSER-CONTAINER",
-        key: 1,
-    },
-    ,
-    {
-        name: "KANAN.CO",
-        IMAGEPATH: "assets/SponsersImages/01.jpg",
-        className: "SPONSER-CONTAINER",
-        key: 2,
-    }, {
-        name: "KANAN.CO",
-        IMAGEPATH: "assets/SponsersImages/01.jpg",
-        className: "SPONSER-CONTAINER",
-        key: 3,
-    }, {
-        name: "KANAN.CO",
-        IMAGEPATH: "assets/SponsersImages/01.jpg",
-        className: "SPONSER-CONTAINER",
-        key: 4,
-    }, {
-        name: "KANAN.CO",
-        IMAGEPATH: "assets/SponsersImages/01.jpg",
-        className: "SPONSER-CONTAINER",
-        key: 5,
-    }, {
-        name: "KANAN.CO",
-        IMAGEPATH: "assets/SponsersImages/01.jpg",
-        className: "SPONSER-CONTAINER",
-        key: 6,
-    }, {
-        name: "KANAN.CO",
-        IMAGEPATH: "assets/SponsersImages/01.jpg",
-        className: "SPONSER-CONTAINER",
-        key: 7,
-    }, {
-        name: "KANAN.CO",
-        IMAGEPATH: "assets/SponsersImages/01.jpg",
-        className: "SPONSER-CONTAINER",
-        key: 8,
-    }, {
-        name: "KANAN.CO",
-        IMAGEPATH: "assets/SponsersImages/01.jpg",
-        className: "SPONSER-CONTAINER",
-        key: 9,
-    }, {
-        name: "KANAN.CO",
-        IMAGEPATH: "assets/SponsersImages/01.jpg",
-        className: "SPONSER-CONTAINER",
-        key: 10,
-    }, {
-        name: "KANAN.CO",
-        IMAGEPATH: "assets/SponsersImages/01.jpg",
-        className: "SPONSER-CONTAINER",
-        key: 11,
-    }, {
-        name: "KANAN.CO",
-        IMAGEPATH: "assets/SponsersImages/01.jpg",
-        className: "SPONSER-CONTAINER",
-        key: 12,
-    }]
+import React from "react";
+import "./SponsersPage.scss";
 
 function SponsersPage() {
-    return (
-        <>
-            <h1 className='SPONSERS-HEADING'>our Sponsers</h1>
-            <div className='SPONSERS-MAIN-CONTAINER'>
-                {SPONSERS.map(members => <SponserCompanies item={members} src={members.IMAGEPATH} key={members.key} />)}
+  return (
+    <div>
+      <h1 className="SPONSERS-HEADING">Our Sponsers</h1> 
+      <div className="logo-slider">
+      <div>
+        <img src="assets/SponsorImages/Aone.jpg" />
+        <img src="assets/SponsorImages/espi.jpg" />
+        <img src="assets/SponsorImages/eva.jpg" />
+        <img src="assets/SponsorImages/gate.jpg" />
+        <img src="assets/SponsorImages/happyfaces.jpg" />
+        <img src="assets/SponsorImages/icici.jpg" />
+      </div>
 
-            </div>
-        </>
-    )
+      <div>
+        <img src="assets/SponsorImages/ims.jpg" />
+        <img src="assets/SponsorImages/kanan.jpg" />
+        <img src="assets/SponsorImages/microhub.jpg" />
+        <img src="assets/SponsorImages/red.jpg" />
+        <img src="assets/SponsorImages/retro.jpg" />
+        <img src="assets/SponsorImages/spark.jpg" />
+      </div>
+    </div>
+      </div>
+  );
 }
 
-export default SponsersPage
+export default SponsersPage;
