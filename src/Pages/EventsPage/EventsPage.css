@@ -28,7 +28,7 @@
   width: 100vw;
   flex-wrap: wrap;
   flex-direction: row;
-  padding:0 15% 0 15%;
+  padding: 0 15% 0 15%;
   justify-content: space-evenly;
   align-items: center;
 }
@@ -41,7 +41,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 15px solid white;
+  border: 15px solid #004e49;
   background-color: #f9efd7;
   border-radius: 15px;
   margin: 35px 25px;
@@ -60,7 +60,8 @@
 
 .EVENT-ITEM-CONTAINER > p {
   margin-top: 65px;
-  font-family: "Rubik Vinyl", cursive;
+  color: #9bb44d;
+  font-family: "ubuntu", cursive;
 }
 
 body {
