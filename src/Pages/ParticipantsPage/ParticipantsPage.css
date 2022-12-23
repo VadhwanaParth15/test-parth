@@ -43,8 +43,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    width: 100vw;
+    align-items:center;
+    padding: 0 20%;
 }
 
 .DEVLOPER-CONTAINER {
@@ -71,11 +71,11 @@
     justify-content: space-evenly;
     margin: 20px;
     flex-direction: row;
-    width: 400px;
+    width: 300px;
     border: 2px solid black;
     border-radius: 16px;
     position: relative;
-    height: 400px;
+    height: 300px;
 }
 
 .DEVLOPER-COMITEE-CONTAINER {
@@ -107,8 +107,8 @@
 }
 
 .CORE-COMMITEE-IMAGE {
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
     position: absolute;
     left: -30px;
 }
