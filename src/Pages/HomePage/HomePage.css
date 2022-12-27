@@ -104,15 +104,7 @@
     font-family: 'Syncopate', sans-serif;
     text-transform: capitalize;
 }
- .expbtn  img {
-    box-sizing: border-box;
-    width: 25px;
-    /* padding-top: 5px; */
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    
-}
+ 
 
 
 
@@ -211,15 +203,7 @@
         font-family: 'Syncopate', sans-serif;
         text-transform: capitalize;
     }
-     .expbtn  img {
-        box-sizing: border-box;
-        width: 25px;
-        /* padding-top: 5px; */
-        position: absolute;
-        top: 15px;
-        right: 15px;
-        
-    }
+     
     
     
 
