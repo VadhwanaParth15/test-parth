@@ -4,6 +4,7 @@ import "./EventsPage.css";
 const Events = [
   {
     className: "EVENT-ITEM-CONTAINER",
+    subClassName: "row-1",
     id: "EVENT_1",
     EventimageSource: "assets/EventImages/01.jpg",
     EventDiscription: "CYBER INTRUSION",
@@ -11,6 +12,7 @@ const Events = [
   },
   {
     className: "EVENT-ITEM-CONTAINER",
+    subClassName: "row-2",
     id: "EVENT_2",
     EventimageSource: "assets/EventImages/02.jpg",
     EventDiscription: "CIRCUITRICKS",
@@ -18,6 +20,7 @@ const Events = [
   },
   {
     className: "EVENT-ITEM-CONTAINER",
+    subClassName: "row-1",
     id: "EVENT_3",
     EventimageSource: "assets/EventImages/03.jpg",
     EventDiscription: "STRUCTONICS",
@@ -25,6 +28,7 @@ const Events = [
   },
   {
     className: "EVENT-ITEM-CONTAINER",
+    subClassName: "row-2",
     id: "EVENT_4",
     EventimageSource: "assets/EventImages/04.jpg",
     EventDiscription: "WHEELS & WINGS",
@@ -32,6 +36,7 @@ const Events = [
   },
   {
     className: "EVENT-ITEM-CONTAINER",
+    subClassName: "row-1",
     id: "EVENT_5",
     EventimageSource: "assets/EventImages/05.jpg",
     EventDiscription: "DEXTER'S LAB",
@@ -39,6 +44,7 @@ const Events = [
   },
   {
     className: "EVENT-ITEM-CONTAINER",
+    subClassName: "row-2",
     id: "EVENT_6",
     EventimageSource: "assets/EventImages/06.jpg",
     EventDiscription: "WORKSHOPS",
@@ -46,6 +52,7 @@ const Events = [
   },
   {
     className: "EVENT-ITEM-CONTAINER",
+    subClassName: "row-1",
     id: "EVENT_7",
     EventimageSource: "assets/EventImages/07.jpg",
     EventDiscription: "ANCILLARY",
@@ -53,6 +60,7 @@ const Events = [
   },
   {
     className: "EVENT-ITEM-CONTAINER",
+    subClassName: "row-2",
     id: "EVENT_8",
     EventimageSource: "assets/EventImages/08.jpg",
     EventDiscription: "S.H.A.R.K.S",
@@ -60,6 +68,7 @@ const Events = [
   },
   {
     className: "EVENT-ITEM-CONTAINER",
+    subClassName: "row-1",
     id: "EVENT_9",
     EventimageSource: "assets/EventImages/09.jpg",
     EventDiscription: "FUNTASTIC",
@@ -81,6 +90,7 @@ const EventsPage = () => {
               src={members.EventimageSource}
               EventDiscription={members.EventDiscription}
               key={members.key}
+              subClassName={members.subClassName}
             />
           ))}
         </div>
