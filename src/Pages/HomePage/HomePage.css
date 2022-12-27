@@ -10,6 +10,7 @@
 .HOMEPAGE-MAIN-CONTAINER {
     width: 100vw;
     background-color: rgba(249, 239, 215, 0.781);
+    background-image: url("../../../public/assets/hero2.png");
     height: 883px;
     display: flex;
     justify-content: center;
