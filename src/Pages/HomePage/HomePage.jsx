@@ -3,9 +3,6 @@ import './HomePage.css'
 function HomePage() {
   return (
     <div className='HOMEPAGE-MAIN-CONTAINER'>
-      <div className='bgimage'>
-          <img src="assets\hero2.png" alt="bg1"/>
-          </div>
            <div className='headerline'>
              <h1> PRAKARSH'<span>23</span></h1>  
              <h2> ENGAGING mINds, eMpowERiNg sUccEss
