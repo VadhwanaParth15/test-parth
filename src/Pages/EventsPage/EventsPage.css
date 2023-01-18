@@ -48,6 +48,15 @@
   transition: all 0.2s ease-in-out;
 }
 
+.row-1,
+.row-3 {
+  border-color: #004e49;
+}
+
+.row-2 {
+  border-color: #9bb44d;
+}
+
 .EVENT-ITEM-CONTAINER:hover {
   transform: scale(1.04);
 }
