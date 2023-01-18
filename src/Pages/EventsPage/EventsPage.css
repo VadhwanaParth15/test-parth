@@ -50,24 +50,24 @@
 
 .row-1,
 .row-3 {
-  border-color: #004E49;
+  border-color: #004e49;
 }
 
 .row-2 {
-  border-color: #9BB44D;
+  border-color: #9bb44d;
 }
 
 .EVENT-ITEM-CONTAINER:hover {
   transform: scale(1.04);
 }
 
-.EVENT-ITEM-CONTAINER>img {
+.EVENT-ITEM-CONTAINER > img {
   border-radius: 20px;
   height: 100px;
   width: 100px;
 }
 
-.EVENT-ITEM-CONTAINER>p {
+.EVENT-ITEM-CONTAINER > p {
   margin-top: 65px;
   color: #9bb44d;
   font-family: "ubuntu", cursive;
@@ -75,4 +75,10 @@
 
 body {
   overflow-x: hidden;
+}
+@media screen and (max-width: 600px) {
+  .EVENT-ITEM-CONTAINER {
+    height: 250px;
+    width: 250px;
+  }
 }
